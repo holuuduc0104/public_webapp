@@ -29,9 +29,9 @@ def diabetes_prediction(input_data):
     print(prediction)
 
     if prediction[0] == 0:
-        return 'The person is not diabetic'
+        return 'You are not at risk for diabetes based on the data entered.'
     else:
-        return 'The person is diabetic'
+        return 'You are at high risk of diabetes. Please get checked soon.'
   
     
 def main():
